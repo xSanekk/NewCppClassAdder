@@ -30,7 +30,7 @@ void FNewCppClassAdderModule::AddCppEntryToContentBrowser(FMenuBuilder& Builder)
 		[]
 		{
 			FGameProjectGenerationModule::Get().OpenAddCodeToProjectDialog();
-        }));
+		}));
 	
 	Builder.BeginSection("ContentBrowserNewClass", LOCTEXT("ClassMenuHeading", "C++ Class"));
 	Builder.AddMenuEntry(
