@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "New C++ Class Adder",
+	"Description": "Plugin that returns the button <New C ++ class> to the context menu in the content browser",
+	"Category": "Developer",
+	"CreatedBy": "Aleksandr Stepkin",
+	"CreatedByURL": "https://t.me/xsanekk",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://t.me/xsanekk",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "NewCppClassAdder",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"Linux",
+				"Android",
+				"IOS",
+				"PS4",
+				"XboxOne",
+				"Switch"
+			]
+		}
+	]
+}
